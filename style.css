@@ -1,40 +1,65 @@
 a {
-  text-decoration: none;
- }
- nav {
-   background: black;
-   margin: 20px 0;
-   border-radius: 20px;
-   padding: 0 10px;
- }
- nav>ul {
-   display: flex;
-   flex-wrap: wrap;
-   align-content: center;
-   padding: 0;
- }
- nav>ul li {
-   list-style: none;
- }
- nav>ul li a {
-   color: white;
-   padding: 10px;
-   margin: 0 5px;
-   border: 2px solid rgba(255, 255, 255, 0);
-   border-radius: 20px;
-   transition: .3s all;
- }
- nav>ul li a:hover {
-   border: 2px solid #333;
-   background: rgba(0, 0, 0, 0.3);
-   color: white;
- }
- .rightnav {
-   margin-left: auto
- }
- .navDiv nav {
-   display: flex;
- }
+ text-decoration: none;
+ color: white;
+}
+nav {
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 0 10px;
+  display: flex;
+  background: black;
+}
+nav>ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0;
+}
+nav>ul li {
+  list-style: none;
+}
 
+nav>ul li {
+  color: white;
+  padding: 10px;
+  text-align: vertical;
+  margin: auto;
+  /* transition: .3s all; */
+}
+nav>ul li a:hover {
+  color: blue;
+  text-decoration: none;
+  text-align: vertical;
+}
+.rightNav {
+  margin-left: auto
+}
+
+.leftNav {
+ margin-right: auto
+}
+
+.navItems {
+ vertical-align: baseline;
+}
+
+.logo {
+ filter: invert(100%);
+}
+
+.div-image-1 {
+ display: flex;
+}
 
 /*Social Media*/
+.social-media-icon {
+ font-size:25px;
+ text-align: vertical;
+ /* filter: invert(100%); */
+}
+
+.social-media-icon-footer {
+ font-size:15px;
+ margin-left: 9px;
+ /* filter: invert(100%); */
+}
