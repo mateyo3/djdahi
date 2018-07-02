@@ -1,11 +1,13 @@
 a {
   text-decoration: none;
+  color: white;
  }
  nav {
-   background: black;
    margin: 20px 0;
    border-radius: 20px;
    padding: 0 10px;
+   display: flex;
+   background: black;
  }
  nav>ul {
    display: flex;
@@ -16,25 +18,48 @@ a {
  nav>ul li {
    list-style: none;
  }
- nav>ul li a {
+
+ nav>ul li {
    color: white;
    padding: 10px;
-   margin: 0 5px;
-   border: 2px solid rgba(255, 255, 255, 0);
-   border-radius: 20px;
-   transition: .3s all;
+   text-align: vertical;
+   margin: auto;
+   /* transition: .3s all; */
  }
  nav>ul li a:hover {
-   border: 2px solid #333;
-   background: rgba(0, 0, 0, 0.3);
-   color: white;
+   color: blue;
+   text-decoration: none;
+   text-align: vertical;
  }
- .rightnav {
+ .rightNav {
    margin-left: auto
  }
- .navDiv nav {
-   display: flex;
- }
 
+.leftNav {
+  margin-right: auto
+}
+
+.navItems {
+  vertical-align: baseline;
+}
+
+.logo {
+  filter: invert(100%);
+}
+
+.div-image-1 {
+  display: flex;
+}
 
 /*Social Media*/
+.social-media-icon {
+  font-size:25px;
+  text-align: vertical;
+  /* filter: invert(100%); */
+}
+
+.social-media-icon-footer {
+  font-size:15px;
+  margin-left: 9px;
+  /* filter: invert(100%); */
+}
