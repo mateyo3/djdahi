@@ -61,5 +61,5 @@ nav>ul li a:hover {
 .social-media-icon-footer {
  font-size:15px;
  margin-left: 9px;
- /* filter: invert(100%); */
+ filter: invert(100%);
 }
