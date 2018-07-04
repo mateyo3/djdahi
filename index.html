@@ -7,6 +7,10 @@
 
    <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Bootstrap CDN -->
+ 	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
    <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,7 +19,7 @@
  <body>
  <div class="container">
    <header>
-     <img src="assets\images\DahiLogo.jpg">
+     <!-- <img src="assets\images\DahiLogo.jpg" class="header-logo" height=auto width=100%> -->
    </header>
      <div class="navDiv">
        <nav>
@@ -53,20 +57,32 @@
        </nav>
      </div>
 
-     <div class="div-image-1">
-       <img src="https://img.wennermedia.com/article-leads-horizontal-800/rs-210636-IMG_3337.jpg" alt="DJ Dahi" height="100" width="auto">
-     </div>
+   <div class="row">
+   	<div class="col-md-4">
+ 			<div class="card">
+ 				<img class="side-image" src="https://img.wennermedia.com/article-leads-horizontal-800/rs-210636-IMG_3337.jpg" alt="DJ Dahi" height="auto" width=100%>
+ 				<h3 class="title">Meet the Master Beatmaker for Drake, Dr. Dre, Kendrick Lamar</h3>
+ 				<p class="description">Raclette irony squid, activated charcoal ipsum jean shorts migas craft beer yuccie. Neutra tattooed fanny pack kitsch kale chips, veniam PBR&B irony air plant laborum sartorial. Gluten-free paleo magna, literally beard narwhal tempor aesthetic. Meditation banh mi echo park tousled, keytar farm-to-table street art yuccie.</p>
+        <p>Rollingstone.com | 2015</p>
+ 				<button class="btn btn-secondary" type="button">Read More</button>
+ 			</div>
+   	</div> <!-- end: class="col-md-4" -->
 
-  <div>
-    <p>Vinyl taxidermy gentrify banh mi copper mug yr sartorial pop-up aesthetic. Small batch gluten-free chillwave, literally shabby chic direct trade skateboard. Trust fund bitters cliche blog listicle sriracha church-key cold-pressed. Pour-over pickled single-origin coffee DIY, stumptown subway tile beard pok pok. Kinfolk hell of single-origin coffee adaptogen jianbing. Franzen affogato tousled retro pickled post-ironic quinoa YOLO leggings next level slow-carb raw denim pop-up poke. Succulents cardigan tbh tacos.</p>
-    </p>
-  </div>
-  <div class="center-box">
-    <p>Raclette irony squid, activated charcoal ipsum jean shorts migas craft beer yuccie. Neutra tattooed fanny pack kitsch kale chips, veniam PBR&B irony air plant laborum sartorial. Gluten-free paleo magna, literally beard narwhal tempor aesthetic. Meditation banh mi echo park tousled, keytar farm-to-table street art yuccie. Excepteur slow-carb kitsch taiyaki. Magna banh mi humblebrag, plaid kogi tempor non retro vexillologist thundercats dolor XOXO knausgaard green juice schlitz.<br><br>Mollit vice stumptown, fashion axe dolore in kombucha hot chicken single-origin coffee post-ironic forage cardigan before they sold out. Qui butcher crucifix portland, ipsum chia dreamcatcher velit health goth ea. Nisi readymade intelligentsia forage poke bespoke organic etsy. Cloud bread fixie kitsch glossier ut fugiat do twee snackwave copper mug fam.
-  </div>
-  <div class="right-box">
-    <p>Irony drinking vinegar ugh, crucifix master cleanse unicorn kogi VHS offal literally godard lumbersexual. Single-origin coffee irony authentic master cleanse actually, vegan whatever hell of tbh banh mi street art meditation +1. Hoodie fashion axe viral keytar meggings venmo succulents woke tofu locavore. VHS whatever taiyaki wolf raw denim you probably haven't heard of them chartreuse taxidermy helvetica. Cloud bread tbh meditation kitsch poutine pug synth hella.</p>
-  </div>
+
+  	<div class="col-md-4">
+			<div class="card">
+				<img class="side-image" src="https://media.npr.org/assets/img/2016/02/09/dacoury-20144625_wide-f8b429ce2ebcd66c399b635791e6740c512326c5-s700-c85.jpg"alt="DJ Dahi" height="auto" width=100%>
+				<h3 class="title">Making The Move From Bass Line To Top Billing</h3>
+				<p class="description">Vinyl taxidermy gentrify banh mi copper mug yr sartorial pop-up aesthetic. Small batch gluten-free chillwave, literally shabby chic direct trade skateboard. Trust fund bitters cliche blog listicle sriracha church-key cold-pressed. Pour-over pickled single-origin coffee DIY, stumptown subway tile beard pok pok.</p>
+        <p>npr.org | 2016</p>
+				<button class="btn btn-secondary" type="button">Read More</button>
+			</div>
+		</div> <!-- end: class="col-md-4" -->
+	</div> <!-- end: class="row" -->
+
+
+
+
   <footer id="copy-right">
        &copy; 2018 DJ Dahi
        <a class="instagram-follow-button"
