@@ -8,12 +8,13 @@ var spotify = new Spotify({
   secret: 'd488f5ec1f04460393945b5097cd2a35'
 });
 
-spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
-  if (err) {
-    return console.log('Error occurred: ' + err);
-  }
-
-console.log("Spotify API: " + data);
-});
+spotify
+  .request('https://api.spotify.com/v1/users/mateyo3/playlists/5ZkbY6yUuneJPRZn7XW6FS?')
+  .then(function(data) {
+    console.log(data);
+  })
+  .catch(function(err) {
+    console.error('Error occurred: ' + err);
+  });
 
 module.exports = spotifyKeys;
