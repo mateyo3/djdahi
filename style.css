@@ -62,6 +62,12 @@ nav>ul li a:hover {
   align-items: center;
 }
 
+
+/* sections */
+.content-section {
+  padding-top: 10px;
+}
+
 /*Social Media*/
 .social-media-icon {
  /* font-size:25px; */
