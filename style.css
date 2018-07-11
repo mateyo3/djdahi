@@ -4,15 +4,16 @@ body {
   background-color: gray;
 }
 
-a {
+.nav-buttons {
  text-decoration: none;
  color: white;
- font-size:30px;
+ font-size:15px;
+ font-family: 'Press Start 2P', 'Roboto Condensed', 'Coda Caption', sans-serif;
 }
 nav {
-  margin: 20px 0;
-  border-radius: 20px;
-  padding: 0 10px;
+  /* margin: 20px 0; */
+  /* border-radius: 20px; */
+  /* padding: 0 10px; */
   display: flex;
   background: black;
 }
@@ -40,6 +41,7 @@ nav>ul li a:hover {
 }
 .rightNav {
   margin-left: auto
+  padding-right: 10px;
 }
 
 .leftNav {
@@ -48,6 +50,10 @@ nav>ul li a:hover {
 
 .navItems {
  vertical-align: baseline;
+}
+
+.test {
+    padding-right: 20px;
 }
 
 .logo {
@@ -62,15 +68,9 @@ nav>ul li a:hover {
   align-items: center;
 }
 
-
-/* sections */
-.content-section {
-  padding-top: 10px;
-}
-
 /*Social Media*/
-.social-media-icon {
- /* font-size:25px; */
+.social-media-icon-nav {
+ font-size:25px;
  text-align: vertical;
  /* filter: invert(100%); */
 }
@@ -80,6 +80,93 @@ nav>ul li a:hover {
  margin-left: 9px;
  filter: invert(100%);
 }
+
+/* feature */
+/* ul.polaroids a:after {
+  content: attr(title);
+  text-decoration: none;
+} */
+
+.polaroid {
+  position: relative;
+  width: 50%;
+}
+
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.polaroid:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+
+/* sections */
+.content-section {
+  padding-top: 10px;
+}
+
+no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Press Start 2P', 'Roboto Condensed', 'Coda Caption', sans-serif;
+  margin: 40px 0 20px 0;
+  padding: 10px 0px 10px 5px;
+  background-color: black;
+}
+
+iframe {
+  font-size: 80px;
+}
+/* #music {
+  background-image: url('https://images.pexels.com/photos/164828/pexels-photo-164828.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+} */
+
+
 
 /* footer */
 footer {

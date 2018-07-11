@@ -11,13 +11,18 @@
    <!-- Bootstrap CDN -->
  	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+   <!-- Font Awesome -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Press+Start+2P|Roboto+Condensed" rel="stylesheet">
+
 
    <link rel="stylesheet" type="text/css" href="style.css">
  </head>
 
  <body>
- <div class="container">
+ <div class="container-fluid no-padding">
    <header>
      <!-- <img src="assets\images\DahiLogo.jpg" class="header-logo" height=auto width=100%> -->
    </header>
@@ -26,50 +31,59 @@
      <nav>
        <ul class="leftNav navItems">
          <li>
-           <a href="#feature"><img class="logo" src="assets\images\DahiLogo.jpg" alt="DJ Dahi logo" height="50px" width="auto"></a>
+           <a class="nav-buttons" href="#feature"><img class="logo" src="assets\images\DahiLogo.jpg" alt="DJ Dahi logo" height="50px" width="auto"></a>
          </li>
          <li>
-           <a href="#music">Playlist</a>
+           <a class="nav-buttons test" href="#articles">Spotlight</a>
          </li>
          <li>
-           <a href="#videos">Videos</a>
+           <a class="nav-buttons test" href="#music">Currently On Repeat</a>
          </li>
          <li>
-           <a href="#articles">Spotlight</a>
+           <a class="nav-buttons test" href="#videos">In The Queue</a>
          </li>
        </ul>
        <ul class="rightNav navItems">
          <li>
            <a class="instagram-follow-button"
              href="https://www.instagram.com/djdahi/" target="_blank">
-           <i class="fa fa-instagram social-media-icon" aria-hidden="true"></i></a>
+           <i class="fa fa-instagram social-media-icon-nav" aria-hidden="true"></i></a>
          </li>
          <li>
            <a class="twitter-follow-button"
-             href="https://twitter.com/DjDahi" target="_blank" target="_blank"><i class="fa fa-twitter social-media-icon"aria-hidden="true"></i></a>
+             href="https://twitter.com/DjDahi" target="_blank" target="_blank"><i class="fa fa-twitter social-media-icon-nav"aria-hidden="true"></i></a>
          </li>
        </ul>
      </nav>
    </div>
 
-<section class="feature content-section" id="feature">
+<section class="feature content-section container-fluid no-padding" id="feature">
    <div class="row">
-     <div class="col-md-9 col-xs-12">
-       <img src="https://images1.laweekly.com/imager/u/745xauto/8174725/dj-dahi-studio-bw-danny-liao.jpg">
+     <div class="col-md-12 col-xs-12" style="overflow: visible">
+      <div class="polaroid">
+        <img src="https://images1.laweekly.com/imager/u/745xauto/8174725/dj-dahi-studio-bw-danny-liao.jpg" />
+      </div>
+
      </div>
    </div> <!-- end: class="row" -->
 </section> <!-- end: class="feature" -->
 
-<section class="music content-section" id="music">
+<section class="music content-section container-fluid no-padding" id="music">
+  <h4>
+    <strong>Currently On Repeat</strong>
+  </h4>
   <div class="row">
     <div class="col-md-4">
-      <iframe src="https://open.spotify.com/embed/user/mateyo3/playlist/5ZkbY6yUuneJPRZn7XW6FS" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/user/mateyo3/playlist/5ZkbY6yUuneJPRZn7XW6FS" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
   </div> <!-- end: class="row" -->
 </section> <!-- end: class="music" -->
 
-<section class="articles content-section" id="articles">
+<section class="articles content-section container-fluid no-padding" id="articles">
+  <h4>
+    <strong>Spotlight</strong>
+  </h4>
   <div class="row">
    <div class="col-md-4">
      <div class="card">
@@ -103,10 +117,13 @@
  </div> <!-- end: class="row" -->
 </section><!-- end: class="articles" -->
 
-<section class="videos content-section" id="videos">
+<section class="videos content-section container-fluid no-padding" id="videos">
+  <h4 class="no-padding">
+    <strong>In The Queue</strong>
+  </h4>
   <div class="row">
     <div class="col-md-6">
-      <iframe src="https://player.vimeo.com/video/109429071" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe class="left-block" src="https://player.vimeo.com/video/109429071" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <p><a href="https://vimeo.com/109429071">dAHI</a> from <a href="https://vimeo.com/user1589439">Lorenzo de Guia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </div>
 
