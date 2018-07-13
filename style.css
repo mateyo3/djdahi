@@ -4,56 +4,40 @@ body {
   background-color: gray;
 }
 
+/* Navigation bar */
+
+nav {
+  margin-bottom: 80px;
+}
+.topnav {
+    background-color: #000;
+    padding: 10px 0px 10px 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #FFC112;
+}
+
 .nav-buttons {
  text-decoration: none;
  color: white;
  font-size:15px;
  font-family: 'Press Start 2P', 'Roboto Condensed', 'Coda Caption', sans-serif;
-}
-nav {
-  /* margin: 20px 0; */
-  /* border-radius: 20px; */
-  /* padding: 0 10px; */
-  display: flex;
-  background: black;
-}
-nav>ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  padding: 0;
-}
-nav>ul li {
-  list-style: none;
-}
-
-nav>ul li {
-  color: white;
-  padding: 10px;
-  text-align: vertical;
-  margin: auto;
-  /* transition: .3s all; */
-}
-nav>ul li a:hover {
-  color: blue;
-  text-decoration: none;
-  text-align: vertical;
-}
-.rightNav {
-  margin-left: auto
-  padding-right: 10px;
-}
-
-.leftNav {
- margin-right: auto
-}
-
-.navItems {
- vertical-align: baseline;
-}
-
-.test {
-    padding-right: 20px;
 }
 
 .logo {
@@ -67,6 +51,7 @@ nav>ul li a:hover {
 .header-logo {
   align-items: center;
 }
+
 
 /* Glitch */
 .glitch {
@@ -135,6 +120,10 @@ nav>ul li a:hover {
  font-size:20px;
  margin-left: 9px;
  filter: invert(100%);
+}
+
+.nav-social-media-button {
+  font-size: 40px;
 }
 
 /* feature */
@@ -327,12 +316,14 @@ h4 {
   height: auto;
 }
 
-#videos {
-  margin-bottom: 60px;
+/* Playlists */
+.playlist {
+  text-align: center;
 }
 
-iframe {
-  font-size: 80px;
+.playlist-title {
+  font-size: 20px;
+  font-family: 'Press Start 2P', 'Roboto Condensed', 'Coda Caption', sans-serif;
 }
 /* #music {
   background-image: url('https://images.pexels.com/photos/164828/pexels-photo-164828.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
@@ -342,6 +333,14 @@ iframe {
 } */
 
 
+/* videos */
+#videos {
+  margin-bottom: 60px;
+}
+
+.video-player {
+  text-align: center;
+}
 
 /* footer */
 footer {
