@@ -84,6 +84,7 @@ var articles = [
   },
   {
     site: "okayplayer.com",
+    siteIcon: "https://antvala.files.wordpress.com/2013/11/okayplayer.jpg"
     title: "DJ Dahi Showcases His Musicianship On 'Rhythm Roulette'",
     articleURL: "http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html",
     imgURL: "http://okp-cdn.okayplayer.com/wp-content/uploads/2016/06/dj-dahi-rhythm-roulette-video.jpg",
