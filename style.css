@@ -298,6 +298,10 @@ p {
   font-size: 20px;
 }
 
+.btn {
+  font-size: 18px;
+}
+
 h3, .title {
   font-size: 30px;
   font-weight: bold;
