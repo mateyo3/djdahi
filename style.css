@@ -1,27 +1,30 @@
-body {
+html, body {
   /* background: url('https://travellingprogrammer.files.wordpress.com/2013/01/dahi.jpg') no-repeat center center fixed; */
   /* background-size: cover; */
   background-color: gray;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 /* Navigation bar */
 
 nav {
   margin-bottom: 80px;
+  background-color: black;
 }
 .topnav {
     background-color: #000;
     padding: 10px 0px 10px 5px;
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
-    width: 100%;
     z-index: 90;
+    /* margin: 0; */
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
     color: #f2f2f2;
     padding: 3px 16px;
     text-decoration: none;
@@ -263,6 +266,13 @@ nav {
 
 
 /* sections */
+.section-title {
+  background-color: black;
+}
+.card, .row, .centent-section {
+  width: 100%;
+  margin: 0;
+}
 .content-section {
   padding-top: 10px;
 }
@@ -316,6 +326,9 @@ h4 {
   height: auto;
 }
 
+/* .article-cards {
+  background-color: white;
+} */
 /* Playlists */
 .playlist {
   text-align: center;
