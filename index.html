@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
  <head>
    <meta charset="utf-8">
-
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>DJ Dahi</title>
 
    <!-- Latest compiled and minified CSS -->
@@ -29,7 +29,8 @@
 
    <!-- Navigation -->
   <nav>
-   <div class="topnav nav-buttons">
+   <div class="topnav nav-buttons fixed-top collapse navbar-collapse navbar-nav mr-auto mt-2 mt-lg-0">
+     <a class="navbar-brand" href="#feature">DJ DAHI</a>
      <a href="#music">On Repeat</a>
      <a href="#articles">Spotlght</a>
      <a href="#videos">In The Queue</a>
@@ -41,21 +42,22 @@
    </div>
   </nav>
 
+
 <section class="feature content-section container-fluid no-padding" id="feature">
    <div class="row">
      <div class="col-md-4 col-xs-12" style="overflow: visible">
         <div class="polaroid polaroid-1">
-          <img src="https://static.spin.com/files/2017/04/13438797_1118783008160620_421842127413038052_n-1492993913-640x427.jpg" />
+          <img id="polaroid-image-1" src="https://static.spin.com/files/2017/04/13438797_1118783008160620_421842127413038052_n-1492993913-640x427.jpg" />
         </div>
        </div>
        <div class="col-md-4 col-xs-12" style="overflow: visible">
           <div class="polaroid polaroid-2">
-            <img src="http://thesource.com/wp-content/uploads/2014/03/dahi-j.-cole.png" />
+            <img id="polaroid-image-2" src="http://thesource.com/wp-content/uploads/2014/03/dahi-j.-cole.png" />
           </div>
        </div>
        <div class="col-md-4 col-xs-12" style="overflow: visible">
           <div class="polaroid polaroid-3">
-            <img src="https://images1.laweekly.com/imager/u/745xauto/8174725/dj-dahi-studio-bw-danny-liao.jpg" />
+            <img id="polaroid-image-3" src="https://images1.laweekly.com/imager/u/745xauto/8174725/dj-dahi-studio-bw-danny-liao.jpg" />
           </div>
        </div>
    </div> <!-- end: class="row" -->
@@ -66,17 +68,17 @@
   <div class="row">
     <div class="col-md-4 col-xs-12 playlist">
       <h2 class="playlist-title">Boombox</h2>
-      <iframe src="https://open.spotify.com/embed/user/mateyo3/playlist/5ZkbY6yUuneJPRZn7XW6FS" width="400" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/user/mateyo3/playlist/5ZkbY6yUuneJPRZn7XW6FS" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
     <div class="col-md-4 col-xs-12 playlist">
       <h2 class="playlist-title">Record Player</h2>
-      <iframe src="https://open.spotify.com/embed/album/0GET5PKimoSUAHMeCebJx7" width="400" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/album/0GET5PKimoSUAHMeCebJx7" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
     <div class="col-md-4 col-xs-12 playlist">
       <h2 class="playlist-title">Walkman</h2>
-      <iframe src="https://open.spotify.com/embed/album/3pLdWdkj83EYfDN6H2N8MR" width="400" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/album/3pLdWdkj83EYfDN6H2N8MR" width="250" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
 
@@ -86,17 +88,27 @@
 <section class="articles content-section container-fluid no-padding" id="articles">
   <h4 class="section-title">Spotlight</h4>
   <div class="row article-cards">
-   <div class="col-md-3">
-     <div class="card">
-       <a class="article-img-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><img class="side-image article-image" src="https://antvala.files.wordpress.com/2013/11/okayplayer.jpg"alt="okayplayer.com"></a>
-       <h3 class="title">DJ Dahi Showcases His Musicianship On 'Rhythm Roulette'</h3>
-       <p class="description">Typically when one steps up to the plate on Mass Appeal’s always proper Rhythm Roulette, it’s a quick jump from the record store to the chopping block. Not for DJ Dahi, though. The producer behind smash hits from Kendrick Lamar, Drake and Madonna (amongst countless others) took his time to showcase his uncanny musicianship...</p>
-       <a class="article-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><p>okayplayer.com | 2016</p></a>
-       <a class="article-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><button class="btn btn-secondary" type="button">Read More</button></a>
+   <div class="col-md-6">
+     <div class="card flex-container">
+       <div>
+         <a class="article-img-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><img class="side-image article-image no-padding" src="https://antvala.files.wordpress.com/2013/11/okayplayer.jpg"alt="okayplayer.com"></a>
+       </div>
+       <div>
+         <h3 class="title">DJ Dahi Showcases His Musicianship On 'Rhythm Roulette'</h3>
+       </div>
+       <div>
+         <p class="description">Typically when one steps up to the plate on Mass Appeal’s always proper Rhythm Roulette, it’s a quick jump from the record store to the chopping block. Not for DJ Dahi, though. The producer behind smash hits from Kendrick Lamar, Drake and Madonna (amongst countless others) took his time to showcase his uncanny musicianship...</p>
+       </div>
+       <div>
+         <a class="article-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><p>okayplayer.com | 2016</p></a>
+      </div>
+      <div>
+         <a class="article-link" href="http://www.okayplayer.com/news/dj-dahi-rhythm-roulette-video.html" target="_blank"><button class="btn btn-secondary" type="button">Read More</button></a>
+       </div>
      </div>
    </div> <!-- end: class="col-md-3" -->
 
-   <div class="col-md-3">
+   <div class="col-md-6">
      <div class="card">
        <a class="article-img-link" href="https://www.npr.org/sections/therecord/2016/02/23/466130812/dj-dahi-making-the-move-from-bass-line-to-top-billing" target="_blank"><img class="side-image article-image" src="http://www.thekurlandagency.com/kurlandpress/wp-content/uploads/2017/12/2frWHaT.jpg"alt="npr.org"></a>
        <h3 class="title">Making The Move From Bass Line To Top Billing</h3>
@@ -105,8 +117,9 @@
        <a class="article-btn-link" href="https://www.npr.org/sections/therecord/2016/02/23/466130812/dj-dahi-making-the-move-from-bass-line-to-top-billing" target="_blank"><button class="btn btn-secondary" type="button">Read More</button></a>
      </div>
    </div> <!-- end: class="col-md-3" -->
-
-   <div class="col-md-3">
+</div>
+<div class="row">
+   <div class="col-md-6">
      <div class="card">
        <a class="article-img-link" href="https://www.rollingstone.com/music/news/dj-dahi-meet-the-master-beatmaker-for-drake-dr-dre-kendrick-lamar-20150923" target="_blank"><img class="side-image article-image" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-1/p200x200/36511506_10155477031600779_1092471854255308800_n.png?_nc_cat=0&oh=a2d8df3896041543ad92ad1368907cbf&oe=5BCEB026" alt="rollingstone.com"></a>
        <h3 class="title">Meet the Master Beatmaker for Drake, Dr. Dre, Kendrick Lamar</h3>
@@ -115,7 +128,7 @@
        <a class="article-btn-link" href="https://www.rollingstone.com/music/news/dj-dahi-meet-the-master-beatmaker-for-drake-dr-dre-kendrick-lamar-20150923" target="_blank"><button class="btn btn-secondary" type="button">Read More</button></a>
      </div>
    </div> <!-- end: class="col-md-3" -->
-   <div class="col-md-3">
+   <div class="col-md-6">
      <div class="card">
        <a class="article-img-link" href="http://thesource.com/2014/03/03/j-cole-dj-dahi-in-the-studio/" target="_blank"><img class="side-image article-image" src="http://pbs.twimg.com/profile_images/928336520951599104/z2S3XZSz_400x400.jpg"alt="thecourse.com"></a>
        <h3 class="title">J. Cole & DJ Dahi In The Studio</h3>
@@ -141,11 +154,13 @@
   </div> <!-- end: class="row" -->
 </section> <!-- end: class="videos" -->
 
+
   <footer id="copy-right">
    <h5>&copy; DJ Dahi</h5>
  </footer>
 
    </div> <!-- end: class="container" -->
+
 
 
   <script type="text/javascript" src="assets/data.js"></script>

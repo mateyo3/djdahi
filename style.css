@@ -12,15 +12,15 @@ html, body {
 nav {
   margin-bottom: 80px;
   background-color: black;
+  width: 100%
 }
 .topnav {
     background-color: #000;
     padding: 10px 0px 10px 5px;
     overflow: hidden;
-    /* position: fixed; */
     top: 0;
-    z-index: 90;
-    /* margin: 0; */
+    z-index: 1000;
+    /* position: fixed; */
 }
 
 /* Style the links inside the navigation bar */
@@ -28,7 +28,7 @@ nav {
     color: #f2f2f2;
     padding: 3px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Change the color of links on hover */
@@ -141,6 +141,24 @@ nav {
 }
 
 /* polaroid-1 */
+
+#polaroid-image-1 {
+  width: 400px;
+  height: auto;
+}
+
+#polaroid-image-2 {
+  width: 400px;
+  height: auto;
+  margin-top: 50px;
+}
+
+#polaroid-image-3 {
+  width: 350px;
+  height: auto;
+  margin-top: 5px;
+}
+
 .polaroid-1 img {
   border: 10px solid #fff;
   border-bottom: 75px solid #fff;
@@ -307,6 +325,13 @@ h3, .title {
   margin: 5px;
 }
 
+/* Article cards */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;
+align-items: center; */
+}
 .description {
   margin: 5px;
 }
@@ -322,8 +347,9 @@ h4 {
 }
 
 .article-image {
-  width: 100%;
+  width: 33%;
   height: auto;
+  display: inline;
 }
 
 /* .article-cards {
